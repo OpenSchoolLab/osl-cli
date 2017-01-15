@@ -1,7 +1,7 @@
 # OSL-Cli
 A cli tool for *Open School Lab*. It will help to operate OSL specific different services.
 
-### Description
+## Description
 
 Running osl --help, you will see...
 
