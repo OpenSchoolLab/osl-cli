@@ -1,0 +1,14 @@
+{
+  "name": "Open School Lab CLI tool",
+  "description": "Usage: osl [SERVICE] [OPTION]",
+  "services": [
+    {
+      "core": "The backend service for OSL"
+    }
+  ],
+  "options": [
+    {"start": "Starting a service"},
+    {"stop": "Terminating a service"},
+    {"restart": "Restarting a service"}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Open School Lab Core",
+  "path": "/osl/OpenSchoolLab-core/",
+  "service": {
+    "name": "core",
+    "runner": "bin/rails",
+    "available_actions": ["start", "stop", "restart"]
+  }
+}
