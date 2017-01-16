@@ -1,4 +1,4 @@
 {
-  "INVALID_NUMBER_OF_ARGS": "Invalid number of arguments. Please run osl --help for more information."
-
+  "INVALID_NUMBER_OF_ARGS": "Invalid number of arguments. Please run osl --help for more information.",
+  "OPTION_NOT_RECOGNISED": "Option not recognised"
 }
