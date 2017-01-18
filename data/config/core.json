@@ -1,6 +1,6 @@
 {
   "name": "Open School Lab Core",
-  "path": "/osl/OpenSchoolLab-core/",
+  "path": "/opt/osl/osl-core",
   "service": {
     "name": "core",
     "runner": "bin/rails",
