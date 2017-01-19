@@ -1,4 +1,4 @@
-# require_relative 'handlers/installer_handler'
+require_relative 'handlers/installer_handler'
 require_relative 'handlers/runner_handler'
 
 if ARGV.include?("install")
