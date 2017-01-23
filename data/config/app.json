@@ -4,6 +4,6 @@
   "service": {
     "name": "core",
     "runner": "npm",
-    "available_actions": ["start"]
+    "available_actions": ["start", "stop", "restart"]
   }
 }

@@ -16,8 +16,8 @@ class CoreService
       when "stop"
         execute(@config["path"], "shutup")
       when "restart"
-        core("stop")
-        core("start")
+        execute_with("stop")
+        execute_with("start")
     end
   end
 

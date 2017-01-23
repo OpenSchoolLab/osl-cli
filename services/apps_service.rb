@@ -13,6 +13,11 @@ class AppsService
     case option
       when "start"
         execute(@config["path"], "nohup #{@config["service"]["runner"]} start &")
+      when "stop"
+        execute(@config["path"], "kill $(lsof -t -i:4200)")
+      when "restart"
+        execute_with("stop")
+        execute_with("start")
     end
   end
 
