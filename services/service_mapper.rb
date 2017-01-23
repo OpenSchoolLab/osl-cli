@@ -1,4 +1,5 @@
 require_relative 'core_service'
+require_relative 'apps_service'
 require_relative 'help_service'
 
 class ServiceMapper
@@ -6,6 +7,7 @@ class ServiceMapper
     def map(service_name)
       services = {
           "core" => CoreService.new(),
+          "apps" => AppsService.new(),
           "--help" => HelpService.new()
       }
 
