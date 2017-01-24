@@ -12,6 +12,7 @@ Usage: osl [SERVICE] [OPTION]
 
 Available Services:
 	core		The backend service for OSL
+	apps		The frontend service for OSL
 
 Available Options:
 	start		Starting a service

@@ -3,7 +3,8 @@
   "description": "Usage: osl [SERVICE] [OPTION]",
   "services": [
     {
-      "core": "The backend service for OSL"
+      "core": "The backend service for OSL",
+      "apps": "The frontend service for OSL"
     }
   ],
   "options": [
