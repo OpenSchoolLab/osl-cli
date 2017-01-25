@@ -21,7 +21,9 @@ class HelpService
 
     ['services', 'options'].each do |key|
       printer.concat("\nAvailable #{key}:\n")
-      config[key].each { |option| printer.concat("\t#{option.keys[0]}\t\t#{option[option.keys[0]]}\n") }
+      config[key].each_with_index { |option, index|
+        printer.concat("\t#{option.keys[0]}\t\t#{option[option.keys[0]]}\n")
+      }
     end
 
     "#{config['name']}\n#{config['description']}\n\n".concat(printer)
