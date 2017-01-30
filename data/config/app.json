@@ -2,7 +2,7 @@
   "name": "Open School Lab Apps",
   "path": "/var/www/osl-apps",
   "service": {
-    "name": "core",
+    "name": "apps",
     "runner": "npm",
     "available_actions": ["start", "stop", "restart"]
   }
