@@ -1,0 +1,9 @@
+{
+  "name": "Open School Lab Apps",
+  "path": "~",
+  "service": {
+    "name": "nginx",
+    "runner": "nginx",
+    "available_actions": ["start", "stop", "restart"]
+  }
+}
