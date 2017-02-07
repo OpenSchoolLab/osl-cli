@@ -13,6 +13,7 @@ Usage: osl [SERVICE] [OPTION]
 Available Services:
 	core		The backend service for OSL
 	apps		The frontend service for OSL
+	nginx		Reverse proxy server
 
 Available Options:
 	start		Starting a service
